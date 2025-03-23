@@ -5,7 +5,7 @@ use_modular_headers!
 
 target 'Module' do
 
-  pod 'HomeBusiness', :path => 'LocalPods/HomeBusiness'
+  pod 'HomeBusiness', :path => 'HomeBusiness'
  
 
   pod 'Alamofire', '5.10.2'
