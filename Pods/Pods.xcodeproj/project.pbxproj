@@ -195,8 +195,6 @@
 		26F591A3192D40B3A445F2C5EE87FE3B /* libBeeHive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBeeHive.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2800ED344D3986F176F85EB70488C3E1 /* BHAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAppDelegate.h; path = BeeHive/BHAppDelegate.h; sourceTree = "<group>"; };
 		28D26EA93A10961F857A4C643CC4A768 /* Pods-Module-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Module-dummy.m"; sourceTree = "<group>"; };
-		29D6F7EF2D8FBC3D00F16338 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		29D6F7F12D8FBC3D00F16338 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		29D6F7F52D8FBC7300F16338 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2BE208E598C9273F29BE807D06D51EFB /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		2CDBDA06DB4152C570AFFE6418511931 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
@@ -374,28 +372,10 @@
 			path = "../Target Support Files/BeeHive";
 			sourceTree = "<group>";
 		};
-		29D6F7F02D8FBC3D00F16338 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				29D6F7EF2D8FBC3D00F16338 /* .gitkeep */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		29D6F7F22D8FBC3D00F16338 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				29D6F7F12D8FBC3D00F16338 /* .gitkeep */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		29D6F7F32D8FBC3D00F16338 /* HomeBusiness */ = {
 			isa = PBXGroup;
 			children = (
 				29D6F7F42D8FBC4C00F16338 /* ViewController */,
-				29D6F7F02D8FBC3D00F16338 /* Assets */,
-				29D6F7F22D8FBC3D00F16338 /* Classes */,
 			);
 			path = HomeBusiness;
 			sourceTree = "<group>";
