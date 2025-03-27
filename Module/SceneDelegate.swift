@@ -6,7 +6,8 @@
 //
 
 import UIKit
-import home
+import BeeHive
+import DataBusiness
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -20,9 +21,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene),
               let window = scene.windows.first else { return }
         
-        let homeVc = HomeViewController()
+        BeeHive.registerDynamicModule(HomeModule.self)
+        
+        let homeVc = BeeHive.shareInstance().createService(HomeServiceProtocol.self)
+        
+        print(homeVc)
+        
         window.backgroundColor = .white
-        window.rootViewController = homeVc
+//        window.rootViewController = homeVc
         window.makeKeyAndVisible()
         
         

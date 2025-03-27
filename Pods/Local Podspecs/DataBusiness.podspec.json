@@ -1,9 +1,9 @@
 {
-  "name": "HomeBusiness",
+  "name": "DataBusiness",
   "version": "0.1.0",
-  "summary": "A short description of HomeBusiness.",
+  "summary": "A short description of DataBusiness.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/陈光辉/HomeBusiness",
+  "homepage": "https://github.com/陈光辉/DataBusiness",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,17 +12,14 @@
     "陈光辉": "cgh"
   },
   "source": {
-    "git": "git@github.com:xiaohuihui000/Module.git",
+    "git": "https://github.com/陈光辉/DataBusiness.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": [
-    "HomeBusiness/**/*.{h,m,swift}"
-  ],
+  "source_files": "DataBusiness/**/*",
   "dependencies": {
-    "DataBusiness": [],
-    "SnapKit": []
+    "BeeHive": []
   }
 }

@@ -1,13 +1,21 @@
 PODS:
+  - AccountBusiness (0.1.0):
+    - DataBusiness
   - Alamofire (5.10.2)
   - BeeHive (1.6.0)
-  - HomeBusiness (0.1.0)
+  - DataBusiness (0.1.0):
+    - BeeHive
+  - HomeBusiness (0.1.0):
+    - DataBusiness
+    - SnapKit
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
+  - AccountBusiness (from `LocalPods/AccountBusiness`)
   - Alamofire (= 5.10.2)
   - BeeHive (= 1.6.0)
-  - HomeBusiness (from `HomeBusiness`)
+  - DataBusiness (from `LocalPods/DataBusiness`)
+  - HomeBusiness (from `LocalPods/HomeBusiness`)
   - SnapKit (= 5.0.1)
 
 SPEC REPOS:
@@ -17,15 +25,21 @@ SPEC REPOS:
     - SnapKit
 
 EXTERNAL SOURCES:
+  AccountBusiness:
+    :path: LocalPods/AccountBusiness
+  DataBusiness:
+    :path: LocalPods/DataBusiness
   HomeBusiness:
-    :path: HomeBusiness
+    :path: LocalPods/HomeBusiness
 
 SPEC CHECKSUMS:
+  AccountBusiness: 6c31d5d42c172d0d68582ffee591107c8b8383b4
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
   BeeHive: 64c01ddec33b9ef8813701e075eeb732327d0f75
-  HomeBusiness: 516f892b5afbaca06ac25321c66f9e3a7afb4a33
+  DataBusiness: 5f60b6a13fb8c239ccc7583577126ca29ed545e1
+  HomeBusiness: 951e5d399b4e7f241a9ef872f08994102f3faf2f
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: f12dc1257fc0f0e3491449cfa0256d92e5617fa9
+PODFILE CHECKSUM: 3b2704de5b7c583f87000370666eaae2daf86099
 
 COCOAPODS: 1.16.2
